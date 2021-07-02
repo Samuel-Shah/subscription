@@ -101,7 +101,7 @@ function LandingPage() {
                 <img className="subscription-section-prev-icon" src="/Previous.svg" onClick={e => { e.preventDefault(); mainCarouselPrev(); linksPrev()  }} />
             </div>
             <div className="subscription-section-next-icon-wrapper">
-                <img className="subscription-section-next-icon" src="/next.svg" onClick={e => { e.preventDefault(); mainCarouselNext();linksNext() }} />
+                <img className="subscription-section-next-icon" src="/Next.svg" onClick={e => { e.preventDefault(); mainCarouselNext();linksNext() }} />
             </div>
             <div className="subscription-section-bottle-wrapper-container">
                 <div className="subscription-section-carousel-text">

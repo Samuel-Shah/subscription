@@ -48,20 +48,26 @@ function LandingPage() {
   useEffect(() => {
     for (var i = 0; i < document.getElementsByClassName('subscription-section-carousel-links').length; i++) {
       document.getElementsByClassName('subscription-section-carousel-links')[i].style.textDecoration = "none";
+      document.getElementsByClassName('subscription-section-carousel-links')[i].style.opacity = "0.5";
     }
     document.getElementsByClassName('subscription-section-carousel-links')[selected].style.textDecoration = "underline";
+    document.getElementsByClassName('subscription-section-carousel-links')[selected].style.opacity = "1";
   }, [selected])
 
   function linksNext() {
     if (current < 5) {
       document.getElementsByClassName('subscription-section-carousel-links')[selected].style.textDecoration = "none";
+      document.getElementsByClassName('subscription-section-carousel-links')[selected].style.opacity = "0.5";
       document.getElementsByClassName('subscription-section-carousel-links')[selected + 1].style.textDecoration = "underline";
+      document.getElementsByClassName('subscription-section-carousel-links')[selected + 1].style.opacity = "1";
       setselected(selected + 1)
       console.log(selected);
     }
     else {
       document.getElementsByClassName('subscription-section-carousel-links')[selected].style.textDecoration = "none";
+      document.getElementsByClassName('subscription-section-carousel-links')[selected].style.opacity = "0.5";
       document.getElementsByClassName('subscription-section-carousel-links')[0].style.textDecoration = "underline";
+      document.getElementsByClassName('subscription-section-carousel-links')[0].style.opacity = "1";
       setselected(0);
 
     }
@@ -70,13 +76,17 @@ function LandingPage() {
   function linksPrev() {
     if (current > 0) {
       document.getElementsByClassName('subscription-section-carousel-links')[selected].style.textDecoration = "none";
+      document.getElementsByClassName('subscription-section-carousel-links')[selected].style.opacity = "0.5";
       document.getElementsByClassName('subscription-section-carousel-links')[selected - 1].style.textDecoration = "underline";
+      document.getElementsByClassName('subscription-section-carousel-links')[selected - 1].style.opacity = "1";
       setselected(selected - 1)
       console.log(selected);
     }
     else {
       document.getElementsByClassName('subscription-section-carousel-links')[selected].style.textDecoration = "none";
+      document.getElementsByClassName('subscription-section-carousel-links')[selected].style.opacity = "0.5";
       document.getElementsByClassName('subscription-section-carousel-links')[5].style.textDecoration = "underline";
+      document.getElementsByClassName('subscription-section-carousel-links')[5].style.opacity = "1";
       setselected(5);
 
     }

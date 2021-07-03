@@ -2,8 +2,147 @@ body{
 margin: 0;
 padding: 0;
 }
+.subscription-section-mobile{
+  display: block;
+  height: 100vh;
+  width: auto;
+  background-color: #CAFEC0;
+  font-family: 'Lato', sans-serif;
+}
+
+.subscription-section-mobile-heading-wrapper{
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  position: relative;
+  top: 20px;
+}
+.subscription-section-mobile-heading{
+  font-size: 30px;
+  font-weight: 700;
+}
+.subscription-section-mobile-carousel-links-wrapper{
+  display: block;
+  height: fit-content;
+  width: fit-content;
+  margin: 50px auto 0 270px;
+}
+.subscription-section-mobile-carousel-links{
+  display: inline-block;
+  margin-right: 80px;
+  text-decoration: none;
+  font-size: 23px;
+  color:  #1F2721;;
+}
+.subscription-section-mobile-prev-icon-wrapper{
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  left: 12%;
+  top: 47%;
+}
+.subscription-section-mobile-next-icon-wrapper{
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  right: 12%;
+  top: 47%;
+}
+.subscription-section-mobile-bottle-wrapper-container-1{
+  display: inline-block;
+  height: 30%;
+  width: 77%;
+  margin: 50px auto 0 auto;
+
+}
+.subscription-section-mobile-bottle-wrapper-container-2{
+  display: inline-block;
+  height: 30%;
+  width: 77%;
+  margin: 50px auto 0 auto;
+
+}
+.subscription-section-mobile-bottle-text{
+  font-size:15px;
+  text-align: center;
+  font-weight: 600;
+  color: #556D53;
+  font-weight: 600;
+  display: block;
+}
+.subscription-section-mobile-carousel-text{
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  height: fit-content;
+  width: fit-content;
+  position: relative;
+  top: -60px;
+  margin: auto;
+  color: #65865D;
+}
+.subscription-section-mobile-bottle-wrapper-heading{
+  font-size: 18px;
+  height: fit-content;
+  width: fit-content;
+  color: #3F563D;
+  font-weight: 600;
+  position: relative;
+  left: 50px;
+  top: -30px;
+}
+.subscription-section-mobile-bottle-wrapper{
+  display: inline-block;
+  height: 100%;
+  width: 18%;
+  vertical-align: top;
+}
+.subscription-section-mobile-bottle-img{
+  height: 90%;
+  width: auto;
+  margin-left: -5px;
+}
+.subscription-section-mobile-icon-wrapper-container{
+  display: block;
+  height: 20%;
+  width: 100%;
+  margin: 110px auto 0 auto;
+}
+.subscription-section-mobile-icon-wrapper{
+  display: inline-block;
+  height: 100%;
+  width: 20%;
+  vertical-align: baseline;
+}
+.subscription-section-mobile-icon{
+  height: 75px;
+  width: auto;
+}
+
+.subscription-section-mobile-icon-text{
+   text-align: center;
+  font-size: 14px;
+  color: #526F4D;
+  line-height: 20px;
+  font-weight: 600;
+}
+.cta-button-wrapper-mobile{
+  height: fit-content;
+  width: fit-content;
+  margin: 10px auto 0 auto;
+}
+.cta-button-mobile{
+  background-color: #203208;
+  padding: 5px 20px 5px 20px;
+  border-radius: 20px;
+  font-weight: 800;
+  font-size: 17px;
+  color: #fff;
+  border:none;
+}
 
 .subscription-section{
+    display: block;
     height: 100vh;
     width: auto;
     background-color: #CAFEC0;
@@ -133,3 +272,1015 @@ padding: 0;
     color: #fff;
     border:none;
   }
+
+@media only screen and (min-width: 320px) {
+.subscription-section{
+  display: none;
+}
+.subscription-section-mobile{
+  display: block;
+  height: 100vh;
+  width: auto;
+  background-color: #CAFEC0;
+  font-family: 'Lato', sans-serif;
+}
+.subscription-section-mobile-heading-wrapper{
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  position: relative;
+  top: 20px;
+}
+.subscription-section-mobile-heading{
+  font-size: 20px;
+  font-weight: 700;
+}
+.subscription-section-mobile-prev-icon-wrapper{
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  left: 2%;
+  top: 47%;
+}
+.subscription-section-mobile-next-icon-wrapper{
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  right: 2%;
+  top: 47%;
+}
+.subscription-section-mobile-prev-icon{
+  height: 30px;
+  width: 30px;
+}
+.subscription-section-mobile-next-icon{
+  height: 30px;
+  width: 30px;
+}
+.subscription-section-mobile-carousel-links-wrapper{
+  display: block;
+  height: fit-content;
+  width: fit-content;
+  margin: 50px auto 0 auto;
+}
+.subscription-section-mobile-carousel-links{
+  display: inline-block;
+  margin-right: 0px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  color:  #1F2721;;
+}
+.subscription-section-mobile-bottle-wrapper-heading{
+  font-size: 12px;
+  height: fit-content;
+  width: fit-content;
+  color: #3F563D;
+  font-weight: 700;
+  position: relative;
+  left: 0px;
+  top: -40px;
+}
+.subscription-section-mobile-bottle-wrapper-container{
+  display: inline-block;
+  height: 25%;
+  width: 85%;
+  max-width: 300px;
+  margin: 55px auto 0 auto;
+
+}
+.subscription-section-mobile-bottle-wrapper{
+  display: inline-block;
+  height: 100%;
+  width: 32%;
+  vertical-align: middle; 
+}
+.subscription-section-mobile-bottle-img{
+  height: 75%;
+  width: auto;
+  margin-left: -10px;
+}
+.subscription-section-mobile-bottle-text{
+  font-size:12px;
+  text-align: center;
+  font-weight: 600;
+  color: #556D53;
+  font-weight: 600;
+}
+.subscription-section-mobile-abc-bottle-text{
+  font-size:12px;
+  text-align: center;
+  font-weight: 600;
+  color: #556D53;
+  font-weight: 600;
+  width: 60vw;
+  margin-left:-55px;
+}
+.subscription-section-mobile-carousel-text{
+  font-size: 12px;
+  font-weight: 600;
+  display: block;
+  height: 60px;
+  width: fit-content;
+  position: relative;
+  top: -40px;
+  margin: auto;
+  color: #65865D;
+}
+.subscription-section-mobile-icon-wrapper-container-1{
+  display: block;
+  height: 12%;
+  width: 90%;
+  max-width: 320px;
+  margin: 85px auto 0 auto;
+}
+.subscription-section-mobile-icon-wrapper-container-2{
+  display: block;
+  height: 12%;
+  width: 90%;
+  max-width: 320px;
+  margin: 20px auto 0 auto;
+}
+.subscription-section-mobile-icon-wrapper{
+  display: inline-block;
+  height: 60%;
+  width: 50%;
+  vertical-align: top;
+}
+.subscription-section-mobile-icon{
+  height: 50px;
+  width: auto;
+}
+
+.subscription-section-mobile-icon-text{
+   text-align: center;
+  font-size: 9.9px;
+  color: #526F4D;
+  line-height: 15px;
+  font-weight: 600;
+}
+.cta-button-mobile-wrapper{
+  height: fit-content;
+  width: fit-content;
+  margin: 5px auto 0 auto;
+
+}
+.cta-mobile-button{
+  background-color: #203208;
+  padding: 5px 20px 5px 20px;
+  border-radius: 20px;
+  font-weight: 800;
+  font-size: 13px;
+  color: #fff;
+  border:none;
+}
+}
+@media only screen and (min-width: 375px) {
+  .subscription-section{
+    display: none;
+  }
+  .subscription-section-mobile{
+    display: block;
+    height: 100vh;
+    width: auto;
+    background-color: #CAFEC0;
+    font-family: 'Lato', sans-serif;
+  }
+  .subscription-section-mobile-heading-wrapper{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: 20px;
+  }
+  .subscription-section-mobile-heading{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .subscription-section-mobile-prev-icon-wrapper{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    left: 2%;
+    top: 40%;
+  }
+  .subscription-section-mobile-next-icon-wrapper{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    right: 2%;
+    top: 40%;
+  }
+  .subscription-section-mobile-prev-icon{
+    height: 35px;
+    width: 32px;
+  }
+  .subscription-section-mobile-next-icon{
+    height: 35px;
+    width: 32px;
+  }
+  .subscription-section-mobile-carousel-links-wrapper{
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    margin: 40px auto 0 auto;
+  }
+  .subscription-section-mobile-carousel-links{
+    display: inline-block;
+    margin-right: 0px;
+    text-decoration: none;
+    font-size: 14px;
+    color:  #1F2721;;
+  }
+  .subscription-section-mobile-bottle-wrapper-heading{
+    font-size: 13px;
+    height: fit-content;
+    width: fit-content;
+    color: #3F563D;
+    font-weight: 600;
+    position: relative;
+    left: 0px;
+    top: -30px;
+  }
+  .subscription-section-mobile-bottle-wrapper-container{
+    display: inline-block;
+    height: 27%;
+    width: 87%;
+    max-width: 300px;
+    margin: 50px auto 0 auto;
+  
+  }
+  .subscription-section-mobile-bottle-wrapper{
+    display: inline-block;
+    height: 100%;
+    width: 32%;
+    vertical-align: middle; 
+  }
+  .subscription-section-mobile-bottle-img{
+    height: 75%;
+    width: auto;
+    margin-left: -25px;
+  }
+  .subscription-section-mobile-bottle-text{
+    font-size:13px;
+    text-align: center;
+    font-weight: 600;
+    color: #556D53;
+    font-weight: 600;
+  }
+  .subscription-section-mobile-abc-bottle-text{
+    font-size:13px;
+    text-align: center;
+    font-weight: 600;
+    color: #556D53;
+    font-weight: 600;
+    width: 60vw;
+    margin-left:-55px;
+  }
+  .subscription-section-mobile-carousel-text{
+    font-size: 12px;
+    font-weight: 600;
+    display: block;
+    height: 65px;
+    width: fit-content;
+    position: relative;
+    top: -40px;
+    margin: auto;
+    color: #65865D;
+  }
+  .subscription-section-mobile-icon-wrapper-container-1{
+    display: block;
+    height: 12%;
+    width: 90%;
+    max-width: 350px;
+    margin: 70px auto 0 auto;
+  }
+  .subscription-section-mobile-icon-wrapper-container-2{
+    display: block;
+    height: 12%;
+    width: 90%;
+    max-width: 350px;
+    margin: 20px auto 0 auto;
+  }
+  .subscription-section-mobile-icon-wrapper{
+    display: inline-block;
+    height: 60%;
+    width: 50%;
+    vertical-align: top;
+  }
+  .subscription-section-mobile-icon{
+    height: 50px;
+    width: auto;
+  }
+  
+  .subscription-section-mobile-icon-text{
+     text-align: center;
+    font-size: 11.5px;
+    color: #526F4D;
+    line-height: 15px;
+    font-weight: 600;
+  }
+  .cta-button-mobile-wrapper{
+    height: fit-content;
+    width: fit-content;
+    margin: 10px auto 0 auto;
+  
+  }
+  .cta-mobile-button{
+    background-color: #203208;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 14px;
+    color: #fff;
+    border:none;
+  }
+}
+@media only screen and (min-width: 420px) {
+  .subscription-section{
+    display: none;
+  }
+  .subscription-section-mobile{
+    display: block;
+    height: 100vh;
+    width: auto;
+    background-color: #CAFEC0;
+    font-family: 'Lato', sans-serif;
+  }
+  .subscription-section-mobile-heading-wrapper{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: 20px;
+  }
+  .subscription-section-mobile-heading{
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .subscription-section-mobile-prev-icon-wrapper{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    left: 4%;
+    top: 47%;
+  }
+  .subscription-section-mobile-next-icon-wrapper{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    right: 4%;
+    top: 47%;
+  }
+  .subscription-section-mobile-prev-icon{
+    height: 35px;
+    width: 35px;
+  }
+  .subscription-section-mobile-next-icon{
+    height: 35px;
+    width: 35px;
+  }
+  .subscription-section-mobile-carousel-links-wrapper{
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    margin: 40px auto 0 auto;
+  }
+  .subscription-section-mobile-carousel-links{
+    display: inline-block;
+    margin-right: 0px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color:  #1F2721;;
+  }
+  .subscription-section-mobile-bottle-wrapper-heading{
+    font-size: 12px;
+    height: fit-content;
+    width: fit-content;
+    color: #3F563D;
+    font-weight: 700;
+    position: relative;
+    left: 0px;
+    top: -20px;
+  }
+  .subscription-section-mobile-bottle-wrapper-container{
+    display: block;
+    height: 27%;
+    width: 89%;
+    max-width: 300px;
+    margin: 55px auto 0 auto;
+  
+  }
+  .subscription-section-mobile-bottle-wrapper{
+    display: inline-block;
+    height: 100%;
+    width: 33%;
+    vertical-align: middle; 
+  }
+  .subscription-section-mobile-bottle-img{
+    height: 78%;
+    width: auto;
+    margin-left: -20px;
+  }
+  .subscription-section-mobile-bottle-text{
+    font-size:13px;
+    text-align: center;
+    font-weight: 600;
+    color: #556D53;
+    font-weight: 600;
+  }
+  .subscription-section-mobile-abc-bottle-text{
+    font-size:14px;
+    text-align: center;
+    font-weight: 600;
+    color: #556D53;
+    font-weight: 600;
+    width: 200px;
+    margin-left:-80%;
+  }
+  .subscription-section-mobile-carousel-text{
+    font-size: 12px;
+    font-weight: 600;
+    display: block;
+    height: 65px;
+    width: auto;
+    position: relative;
+    top: -15px;
+    margin: auto;
+    color: #65865D;
+  }
+  .subscription-section-mobile-icon-wrapper-container-1{
+    display: block;
+    height: 13%;
+    width: 90%;
+    max-width: 700px;
+    margin: 90px auto 0 auto;
+  }
+  .subscription-section-mobile-icon-wrapper-container-2{
+    display: block;
+    height: 13%;
+    width: 90%;
+    max-width: 700px;
+    margin: 20px auto 0 auto;
+  }
+  .subscription-section-mobile-icon-wrapper{
+    display: inline-block;
+    height: 60%;
+    width: 50%;
+    vertical-align: top;
+  }
+  .subscription-section-mobile-icon{
+    height: 60px;
+    width: auto;
+  }
+  
+  .subscription-section-mobile-icon-text{
+     text-align: center;
+    font-size: 12px;
+    color: #526F4D;
+    line-height: 14px;
+    font-weight: 600;
+  }
+  .cta-button-mobile-wrapper{
+    height: fit-content;
+    width: fit-content;
+    margin: 8px auto 0 auto;
+  
+  }
+  .cta-mobile-button{
+    background-color: #203208;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 14px;
+    color: #fff;
+    border:none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .subscription-section-mobile{
+    display: none;
+  }
+  .subscription-section{
+    display: block;
+  }
+  .subscription-section-heading-wrapper{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+.subscription-section-heading{
+    font-size: 30px;
+    font-weight: 700;
+}
+.subscription-section-carousel-links-wrapper{
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    margin: 50px auto 0 auto;
+}
+.subscription-section-carousel-links{
+    display: inline-block;
+    margin-right: 45px;
+    text-decoration: none;
+    font-size: 18px;
+    color:  #1F2721;;
+}
+.subscription-section-prev-icon-wrapper{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    left: 2%;
+    top: 30%;
+}
+.subscription-section-next-icon-wrapper{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    right: 2%;
+    top: 30%;
+}
+.subscription-section-bottle-wrapper-container{
+    display: inline-block;
+    height: 25%;
+    width: 85%;
+    margin: 55px auto 0 auto;
+
+  }
+  .subscription-section-bottle-text{
+    font-size:15px;
+    text-align: center;
+    font-weight: 600;
+    color: #556D53;
+    font-weight: 600;
+    display: block;
+}
+  .subscription-section-carousel-text{
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    height: 40px;
+    width: fit-content;
+    position: relative;
+    top: -30px;
+    margin: auto;
+    color: #65865D;
+  }
+  .subscription-section-bottle-wrapper-heading{
+    font-size: 14px;
+    height: fit-content;
+    width: fit-content;
+    color: #3F563D;
+    font-weight: 600;
+    position: relative;
+    left: 0px;
+    top: -20px;
+  }
+  .subscription-section-bottle-wrapper{
+    display: inline-block;
+    height: 100%;
+    width: 18%;
+    vertical-align: top;
+  }
+  .subscription-section-bottle-img{
+    height: 75%;
+    width: auto;
+    margin-left: -40px;
+  }
+.subscription-section-icon-wrapper-container{
+    display: block;
+    height: 10%;
+    width: 100%;
+    max-width: 1000px;
+    margin: 60px auto 0 auto;
+  }
+  .subscription-section-icon-wrapper{
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+    vertical-align: top;
+  }
+  .subscription-section-icon{
+    height: 60px;
+    width: auto;
+  }
+  
+  .subscription-section-icon-text{
+     text-align: center;
+    font-size: 11px;
+    color: #526F4D;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  .cta-button-wrapper{
+    height: fit-content;
+    width: fit-content;
+    margin: 10px auto 0 auto;
+  }
+  .cta-button{
+    background-color: #203208;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 17px;
+    color: #fff;
+    border:none;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .subscription-section-mobile{
+    display: none;
+  }
+  .subscription-section{
+    display: block;
+  }
+  .subscription-section-heading-wrapper{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+.subscription-section-heading{
+    font-size: 30px;
+    font-weight: 700;
+}
+.subscription-section-carousel-links-wrapper{
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    margin: 50px auto 0 100px;
+}
+.subscription-section-carousel-links{
+    display: inline-block;
+    margin-right: 45px;
+    text-decoration: none;
+    font-size: 23px;
+    color:  #1F2721;;
+}
+.subscription-section-prev-icon-wrapper{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    left: 8%;
+    top: 22%;
+}
+.subscription-section-next-icon-wrapper{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    right: 8%;
+    top: 22%;
+}
+.subscription-section-bottle-wrapper-container{
+    display: inline-block;
+    height: 20%;
+    width: 75%;
+    margin: 55px auto 0 auto;
+  }
+  .subscription-section-bottle-text{
+    font-size:15px;
+    text-align: center;
+    font-weight: 600;
+    color: #556D53;
+    font-weight: 600;
+    display: block;
+}
+  .subscription-section-carousel-text{
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    height: 40px;
+    width: fit-content;
+    position: relative;
+    top: -30px;
+    margin: auto;
+    color: #65865D;
+  }
+  .subscription-section-bottle-wrapper-heading{
+    font-size: 14px;
+    height: fit-content;
+    width: fit-content;
+    color: #3F563D;
+    font-weight: 600;
+    position: relative;
+    left: 0px;
+    top: -20px;
+  }
+  .subscription-section-bottle-wrapper{
+    display: inline-block;
+    height: 100%;
+    width: 18%;
+    vertical-align: top;
+  }
+  .subscription-section-bottle-img{
+    height: 75%;
+    width: auto;
+    margin-left: -40px;
+  }
+.subscription-section-icon-wrapper-container{
+    display: block;
+    height: 8%;
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto 0 auto;
+  }
+  .subscription-section-icon-wrapper{
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+    vertical-align: top;
+  }
+  .subscription-section-icon{
+    height: 60px;
+    width: auto;
+  }
+  
+  .subscription-section-icon-text{
+     text-align: center;
+    font-size: 11px;
+    color: #526F4D;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  .cta-button-wrapper{
+    height: fit-content;
+    width: fit-content;
+    margin: 10px auto 0 auto;
+  }
+  .cta-button{
+    background-color: #203208;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 17px;
+    color: #fff;
+    border:none;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .subscription-section-mobile{
+    display: none;
+  }
+  .subscription-section{
+    display: block;
+  }
+  .subscription-section-heading-wrapper{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+.subscription-section-heading{
+    font-size: 30px;
+    font-weight: 700;
+}
+.subscription-section-carousel-links-wrapper{
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    margin: 50px auto 0 auto;
+}
+.subscription-section-carousel-links{
+    display: inline-block;
+    margin-right: 45px;
+    text-decoration: none;
+    font-size: 23px;
+    color:  #1F2721;;
+}
+.subscription-section-prev-icon-wrapper{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+}
+.subscription-section-next-icon-wrapper{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+}
+.subscription-section-bottle-wrapper-container{
+    display: inline-block;
+    height: 37%;
+    width: 75%;
+    margin: 55px auto 0 auto;
+  }
+  .subscription-section-bottle-text{
+    font-size:15px;
+    text-align: center;
+    font-weight: 600;
+    color: #556D53;
+    font-weight: 600;
+    display: block;
+}
+  .subscription-section-carousel-text{
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    height: 40px;
+    width: fit-content;
+    position: relative;
+    top: -30px;
+    margin: auto;
+    color: #65865D;
+  }
+  .subscription-section-bottle-wrapper-heading{
+    font-size: 14px;
+    height: fit-content;
+    width: fit-content;
+    color: #3F563D;
+    font-weight: 600;
+    position: relative;
+    left: 0px;
+    top: -20px;
+  }
+  .subscription-section-bottle-wrapper{
+    display: inline-block;
+    height: 100%;
+    width: 18%;
+    vertical-align: top;
+  }
+  .subscription-section-bottle-img{
+    height: 75%;
+    width: auto;
+    margin-left: -5px;
+  }
+.subscription-section-icon-wrapper-container{
+    display: block;
+    height: 20%;
+    width: 100%;
+    max-width: 950px;
+    margin: 60px auto 0 auto;
+  }
+  .subscription-section-icon-wrapper{
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+    vertical-align: baseline;
+  }
+  .subscription-section-icon{
+    height: 70px;
+    width: auto;
+  }
+  
+  .subscription-section-icon-text{
+     text-align: center;
+    font-size: 12px;
+    color: #526F4D;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  .cta-button-wrapper{
+    height: fit-content;
+    width: fit-content;
+    margin: 0px auto 0 auto;
+  }
+  .cta-button{
+    background-color: #203208;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 17px;
+    color: #fff;
+    border:none;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .subscription-section-mobile{
+    display: none;
+  }
+  .subscription-section{
+    display: block;
+  }
+  .subscription-section-heading-wrapper{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+.subscription-section-heading{
+    font-size: 30px;
+    font-weight: 700;
+}
+.subscription-section-carousel-links-wrapper{
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    margin: 50px auto 0 auto;
+}
+.subscription-section-carousel-links{
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 23px;
+    color:  #1F2721;;
+}
+.subscription-section-prev-icon-wrapper{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    left: 10%;
+    top: 45%;
+}
+.subscription-section-next-icon-wrapper{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    right: 10%;
+    top: 45%;
+}
+.subscription-section-bottle-wrapper-container{
+    display: inline-block;
+    height: 40%;
+    width: 78%;
+    margin: 75px auto 0 auto;
+  }
+  .subscription-section-bottle-text{
+    font-size:15px;
+    text-align: center;
+    font-weight: 600;
+    color: #556D53;
+    font-weight: 600;
+    display: block;
+}
+  .subscription-section-carousel-text{
+    font-size: 17px;
+    font-weight: 600;
+    display: block;
+    height: 40px;
+    width: fit-content;
+    position: relative;
+    top: -40px;
+    margin: auto;
+    color: #65865D;
+  }
+  .subscription-section-bottle-wrapper-heading{
+    font-size: 18px;
+    height: fit-content;
+    width: fit-content;
+    color: #3F563D;
+    font-weight: 600;
+    position: relative;
+    left: 80px;
+    top: -20px;
+  }
+  .subscription-section-bottle-wrapper{
+    display: inline-block;
+    height: 100%;
+    width: 18%;
+    vertical-align: top;
+  }
+  .subscription-section-bottle-img{
+    height: 75%;
+    width: auto;
+    margin-left: -10px;
+  }
+.subscription-section-icon-wrapper-container{
+    display: block;
+    height: 20%;
+    width: 100%;
+    max-width: 1100px;
+    margin: 60px auto 0 auto;
+  }
+  .subscription-section-icon-wrapper{
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+    vertical-align: baseline;
+  }
+  .subscription-section-icon{
+    height: 85px;
+    width: auto;
+  }
+  
+  .subscription-section-icon-text{
+     text-align: center;
+    font-size: 14px;
+    color: #526F4D;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  .cta-button-wrapper{
+    height: fit-content;
+    width: fit-content;
+    margin: 10px auto 0 auto;
+  }
+  .cta-button{
+    background-color: #203208;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 17px;
+    color: #fff;
+    border:none;
+  }
+}
